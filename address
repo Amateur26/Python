@@ -1,0 +1,4 @@
+import webbrowser
+
+address = input("Input your address:")
+webbrowser.open('http://www.google.com.tw/maps/place/' + address)
